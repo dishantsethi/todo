@@ -12,7 +12,7 @@ def apiOverview(request):
     api_urls = {
         "list": "/task-list/",
         "Detail View": "/task-detail/<str:pk>/",
-        "Create": "/tasl-create/",
+        "Create": "/task-create/",
         "Update": "/task-update/<str:pk>/",
         "Delete": "/task-delete/<str:pk>/",
     }
